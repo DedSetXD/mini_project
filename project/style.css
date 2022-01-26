@@ -1,0 +1,17 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --black-color: #000;
+}
+.common_wrapper{
+    max-width: 1376px;
+    margin: 0 auto;
+}
+.menu_item a{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+}
