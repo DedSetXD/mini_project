@@ -5,10 +5,12 @@
 }
 :root{--black-color: #000;}
 :root{--dark-blue-color: #0d2532}
+:root{--yelov-color:  #F9C600;}
 
 .common_wrapper{
     max-width: 1376px;
-    margin: 0 auto;}
+    margin: 0 auto;
+max-height: 9484px;}
 
 .logo{display: flex;align-items: center}
 .top_bar {
@@ -47,6 +49,29 @@ transition: -webkit-box-shadow.50s}
     -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 1);
     box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 1);}
 
+.nav_stylized-2{width: 163px;height: 54px;background: var(--yelov-color);
+color: black;
+    transition: -webkit-box-shadow.50s;
+}
+.nav_stylized-2:hover{-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 1);}
+
+.nav_stylized-3{width: 163px;height: 54px;
+    color: black;
+    transition: -webkit-box-shadow.50s;
+}
+.nav_stylized-3:hover{-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 1);}
+
+
+.menu-button-2{width: 342px;height: 54px;display: flex;column-gap: 16px;
+margin-top: 38px;}
+
+
+
+
 .header_main-content{
     padding: 170px;
 
@@ -58,24 +83,111 @@ transition: -webkit-box-shadow.50s}
 }
 
 .header_background-1{height: 886px;width:600px;background: #f9c600;
-margin-top: -428px;margin-left: 606px;}
+margin-top: -876px;margin-left: 808px; }
 
 .header_content_title {
+font-size: 60px;
+line-height: 64px;}
 
-    font-size: 60px;
-    line-height: 64px;
-
-
-}
 
 .header_content_description{
 
     font-size: 20px;
     line-height: 30px;}
 
-.style_photo{width: 608px;height: 541px ;margin-top: -900px;padding-top: -900px;
-    margin-left: 500px;
+.style_photo{width: 608px;height: 541px ;margin-top: -1100px;padding-top: 700px;
+    margin-left: 700px;}
+
+.vec{margin-left: 776px; }
+.vec-2{margin-left: 996px; }
+.vec-3{margin-left: 776px}
+
+
+
+
+
+.global_innovative_companies-title{position: absolute;
+    width: 547px;
+    height: 96px;
+    left: calc(50% - 547px/2 + 1px);
+    top: -3px;
+    text-align: center;
+    letter-spacing: 0.42px;
+
+    color: #0B2330; margin-top: 1157px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 48px;}
+
+.global_innovative_companies{max-height: 244px; max-width: 1266px;
+    margin-top: 297px;display: flex;
+    flex-wrap: wrap;
+    column-gap: 82px;margin-left: 174px;
 }
+
+.companies{max-width: 153px;max-height: 56px;display: flex ;
+margin-top: 16px;
+column-gap: 82px;
+}
+
+
+
+
+
+
+
+
+.md_product{margin-top: 192px;}
+.bg_inf{width: 1376px;height: 494px;background:#51cebc; border-radius:10px}
+.bicyclist{margin-top: 57.84px;}
+
+.text_bicyclist{max-width: 557px;max-height: 120px;margin-left: 698px;margin-top: -386px;
+    color: #0B2330;}
+.text_bicyclist-2{max-width: 550px; max-height: 56px;;margin-left: 698px;margin-top: 35px; color: #0B2330;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px
+}
+
+
+
+.title_Sp{max-width:711px ;max-height: 80px;margin-top: 377px;margin-left: 375px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+}
+.Sp{margin-left: 265px;margin-top: 57px}
+.mg{margin-top: 113px; margin-left: 638px}
+
+
+
+.bg_v{width:1260px;
+height: 537px;
+border-radius: 10px;background: #bd78f0;margin-top: 160px;margin-right: 32px;margin-left: 148px;
+}
+.title_v{width: 485px;
+height: 192px;
+Top: -3px;
+margin-left: 730px;margin-top: -872px;
+    font-size: 22px;
+    line-height: 48px;}
+
+.texp_v{margin-left: 730px;margin-top: 39px;font-size: 17px;
+    line-height: 28px;}
+
+.prob_w{margin-right: 14px;margin-top: -480px; margin-bottom: 500px}
+
+
+
 
 
 
